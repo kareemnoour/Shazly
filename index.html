@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>Submit || Page</title>
 </head>
 <body>
     <div class="container">
-        <h1>Welcome _________</h1>
-        <form action="">
+        <div class="head">
+            <img src="./image/logo.jpg" alt="logo">
+            <h1>Welcome Student</h1>
+        </div>
+        <form action="" id="form">
             <label for="id">Student id</label>
-            <input type="text" id="id" placeholder="Enter your id">
+            <input type="text" id="id" placeholder="Enter your id" required>
 
             <label for="name">Student name</label>
-            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <input type="text" name="name" id="name" placeholder="Enter your name" required>
 
             <label for="email">Email</label>
-            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <input type="email" name="email" id="email" placeholder="Enter your email" required>
 
             <label for="dateTime">Date & Time</label>
             <input type="datetime-local" id="dateTime" disabled>
@@ -26,6 +29,9 @@
             <input type="submit" value="Submit">
 
         </form>
+        <div class="popup">
+            
+        </div>
     </div>
 
     <script src="./main.js"></script>
