@@ -40,5 +40,5 @@ form.addEventListener('submit', (e) => {
     `;
     setTimeout(() => {
         location.reload();
-    }, 3000);
+    }, 5000);
 });
